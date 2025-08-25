@@ -1,0 +1,71 @@
+body{
+    background: #fff;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+}
+#project_title{
+    background: rgb(47, 152, 212);
+    display: block;
+    padding: 10px 0px;
+    margin: 0px;
+
+}
+.text_title{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.text_title p{
+    margin: 0px;
+}
+.email_section{
+    margin: 50px auto;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    background: lightgray;
+}
+.email_section .email_input{
+    padding: 10px;
+}
+.email_section .email_input button{
+    padding: 9px;
+    text-align: center;
+    font-weight:600;
+    background: #fff;
+    color: #000;
+    border: 1px solid gray;
+}
+.email_section .email_input button:hover{
+    background: #000;
+    color: #fff;
+}
+.email_section .email_input button:active{
+    background: darkgrey;
+}
+.email_section .email_input input{
+    padding: 10px;
+    color: #000;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.email_section .email_input input.error{
+    color: red;
+}
+.email_section .email_input input.success{
+    color: greenyellow;
+}
+#tabela_emails{
+    margin:20px auto; 
+    width: 400px;
+    text-align:center;
+}
